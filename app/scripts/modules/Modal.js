@@ -32,9 +32,9 @@ class Modal {
      injectHTML(){
         document.body.insertAdjacentHTML("beforeend", `<div class="modal">
         <div class="modal__inner">
-          <h2 class="section-title section-title--blue section-title--less-margin"><img src="image/icons/mail.svg" class="section-title__icon"> Хамт <strong>Аялах</strong></h2>
+          <h2 class="section-title section-title--blue section-title--less-margin"><img src="image/icons/mail.svg" class="section-title__icon">Send an e-mail</h2>
           <div class="wrapper wrapper--narrow">
-            <p class="modal__description">Бид тун удахгүй онлайнаар захиалга өгөх системийг нээх бөгөөд, та одоогоор доорхи сошиал платформуудаар дамжиуулж бидэнтэй холбогдох боломжтой!</p>
+            <p class="modal__description"></p>
           </div>    
           <div class="social-icons">
             <a href="#" class="social-icons__icon"><img src="image/icons/facebook.svg" alt="Facebook"></a>
