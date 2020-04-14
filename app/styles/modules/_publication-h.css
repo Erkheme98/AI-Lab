@@ -1,4 +1,7 @@
 .publication-h{
-     padding-left: 100px;
-     padding-right: 100px; 
+     padding-left: 140px;
+     padding-right: 140px; 
+     &--paper{
+          margin-top: 5rem;
+     }
 }

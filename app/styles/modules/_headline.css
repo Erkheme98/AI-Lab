@@ -36,6 +36,8 @@
     }
     &--pont {
         font-size: 1rem;
-        line-height: 0.6; 
+        line-height: 1.1; 
+        font-weight: 300;    
+        color: $mainBlue;
     }
 }
