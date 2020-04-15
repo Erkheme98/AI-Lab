@@ -19,7 +19,7 @@
         position: relative;
         top: 20px;
         border: 6px solid rgba(255, 255, 255, 0.8);
-        @mixin atSmall {
+        @mixin atMedium {
             margin: 0 auto 20px auto;  
         }
     }

@@ -8,6 +8,9 @@
     h1 {
         color: white;
     }
+    &--text-decoration{
+        text-decoration: none;
+    }
     &--medium {
         max-width: 976px;
     }

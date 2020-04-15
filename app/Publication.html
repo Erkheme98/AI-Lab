@@ -19,9 +19,9 @@
                     </div> 
                   </div>                
                 </div>
-              <div class="row__medium-8 row__medium-8--smaller">                
-                   <h2 class="headline headline--no-t-margin">Munkhjargal Gochoo</h2> 
-                <div class="headline--pont">               
+              <div class="row__medium-8 row__medium-8--smaller">   
+                <div class="headline--pont">              
+                   <h2 class="headline headline--no-t-margin">Munkhjargal Gochoo</h2>                               
                     <p> (PhD) Assistant Professor</p>
                     <p> Department of Computer Science & Software Engineering </p>
                     <p> College of Information Technology (CIT) </p>
@@ -35,16 +35,18 @@
         <hr> 
           <div class="headline--pont">  
              <p>Most recent publications on <a href="https://scholar.google.com.tw/citations?hl=en&user=TJh4iVUAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a></p>
-            <div >
-              <nav class="primary-nav primary-nav--pull-right">
-                <ul>
-                  <li><a href="#" >ALL</a></li>
-                  <li><a href="#" >SELECTED PAPERS</a></li>
-                  <li><a href="#" >CV+ML</a> </li>
-                  <li> <a href="#" >ELDERCARE</a></li>
+            <div class="papers-l">
+              <nav class="papers-l__nav">
+                <ul class="papers-l__tab-nav">
+                  <li><a href="#papers-sel" class="papers-l__button papers-l--active">All</a></li>
+                  <li><a href="#papers-all" class="papers-l__button">Selected Papers</a></li>    
+                  <li><a href="#papers-ML" class="papers-l__button">CV+ML</a></li>
+                  <li><a href="#papers-Eldercare" class="papers-l__button">Eldercare</a></li>
                 </ul>
               </nav>
             </div>
+            <div class="tab-content">
+              <div class="tab-pane active" id="papers-all">
            <ul>
               <h1>2020</h1>
                 <li>
@@ -193,7 +195,9 @@
                           </li> 
                        </ul>
                      </div>
-                    </div>  
+                    </div> 
+                  </div>
+                 </div> 
    </div>      
         <script src="bundled.js"></script>
     </body>

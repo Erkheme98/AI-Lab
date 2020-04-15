@@ -35,9 +35,15 @@
         margin-top: 0.5em;
     }
     &--pont {
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 1.1; 
-        font-weight: 300;    
+        font-weight: 100;    
         color: $mainBlue;
+        text-align: center;
+        @mixin atMedium{
+            text-align: left;  
+            font-weight: 300; 
+            font-size: 1rem;
+        }
     }
 }
